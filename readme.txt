@@ -1,6 +1,6 @@
 === Custom Post Display ===
 Contributors: crispuno
-Donation link: http://www.crispuno.ca/?page_id=306
+Donate link: http://www.crispuno.ca/?page_id=306
 Tags: custom post type, display custom post content, custom post widget
 Requires at least: 3.3.1
 Tested up to: 3.3.2
@@ -21,12 +21,12 @@ Features include:
 *	Customize number of posts displayed
 *	Specify number of characters for post excerpt
 
-More information and a demo can be found at [Custom Post Display Plugin](http://www.crispuno.ca/?p=228).
+More information and a demo can be found at [my site](http://www.crispuno.ca/?p=228).
 
 == Installation ==
 
 1. Download and unzip the file. 
-2. Upload the custompostsdisplay folder in your WordPress plugins folder
+2. Upload the Custom Post Display folder in your WordPress plugins folder
 3. Log in to WordPress and go to Plugins
 4. Click on the Activate link for Custom Post Display.
 5. Go to Appearance > Widgets and add the Custom Post Display widget to your sidebar.
@@ -35,12 +35,12 @@ More information and a demo can be found at [Custom Post Display Plugin](http://
 
 = Can I use this widget for Posts and Pages? =
 
-Yes, you actually have the option to choose Posts or Pages when you choose a custom post type. You can actually just use this widget to display recent posts or pages.
+Yes, you have the option to choose Posts or Pages when you choose a custom post type. You can actually just use this widget to display recent posts or pages.
 
 = Can I choose which posts to feature? =
 
 Yes, if you have the Page Attributes box enabled for your custom post type (or Post/Page), when you edit that post, just enter a number in the Order box. 
-Number your posts according to the order you want them to appear. Then, in the Widget options, just choose 'Menu Order' in the 'Sort By' field and choose your Sort order.
+Number your posts according to the order you want them to appear, then, in the Widget options, just choose 'Menu Order' in the 'Sort By' field and choose your Sort order.
 
 == Screenshots ==
 
