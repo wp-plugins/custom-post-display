@@ -3,7 +3,7 @@ Contributors: crispuno
 Donate link: http://www.crispuno.ca/?page_id=306
 Tags: custom post type, display custom post content, custom post widget
 Requires at least: 3.3.1
-Tested up to: 3.3.2
+Tested up to: 3.4
 Stable tag: 1.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl.html
