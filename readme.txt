@@ -4,7 +4,7 @@ Donate link: http://www.crispuno.ca/?page_id=306
 Tags: custom post type, display custom post content, custom post widget
 Requires at least: 3.3.1
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl.html
 
@@ -50,9 +50,15 @@ Number your posts according to the order you want them to appear, then, in the W
 == Changelog ==
 
 = 1.0 =
+* Fixed issue with missing word trimmer function
+
+= 1.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.1 =
+Fixed issue with missing word trimmer function
 
 = 1.0 =
 First release

@@ -3,12 +3,29 @@
  * Plugin Name: Custom Post Display
  * Plugin URI: http://www.crispuno.ca/?p=228
  * Description: Display content of custom posts types in a widget
- * Version: 1.0
+ * Version: 1.1
  * Author: Cris Puno
  * Author URI: http://www.crispuno.ca/
  */
 // Released under the GPL license
 // http://www.opensource.org/licenses/gpl-license.php
+
+
+//Word Trimmer
+function custom_posts_word_trimmer($string, $count, $ellipsis = FALSE){
+  $words = explode(' ', $string);
+  if (count($words) > $count){
+    array_splice($words, $count);
+    $string = implode(' ', $words);
+    if (is_string($ellipsis)){
+      $string .= $ellipsis;
+    }
+    elseif ($ellipsis){
+      $string .= '&hellip;';
+    }
+  }
+  return $string;
+}
 
 class CustomPostsContent extends WP_Widget {
 
@@ -36,7 +53,7 @@ class CustomPostsContent extends WP_Widget {
 			$loop->the_post(); 
 						$cont = get_the_content();
 						$cont = str_replace( array("\n", "\r"), ' ', esc_attr( strip_tags( @html_entity_decode( $cont, ENT_QUOTES, get_option('blog_charset') ) ) ) );
-						$cont = word_trimmer ($cont, $postlength, false);
+						$cont = custom_posts_word_trimmer ($cont, $postlength, false);
 						$cont = esc_html($cont);
 					
 					echo "<h3><a href='";
